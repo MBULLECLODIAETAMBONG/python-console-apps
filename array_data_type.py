@@ -46,8 +46,12 @@ print("The length of the array call numbers is: ", len(numbers))
 extent_element = numbers.extend((0, -1, -2, -3, -4, -5))
 print(numbers)
 
-# using the index() methodto find an index of an element in an array 
+# using the index() method to find an index of an element in an array 
 print("The index of 55 in the array is: ", numbers.index(55))
+
+# count() method takes in an element as an argument and counts the occurrence of an element in the array.
+occurrence = array('i',[1, 2, 30, 4, 5, 6, 30, 8, 30])
+print("30 occurs: ", occurrence.count(30),"times")
 
 # checking if an element in an array is odd or even
 num1 = int(input('Enter first number on the list: '))
