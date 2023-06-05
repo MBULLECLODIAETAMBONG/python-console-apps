@@ -1,4 +1,4 @@
-#  ARRAYS: It is a collection of elements of the same data type
+#  ARRAYS: It is a collection of elements of the same data type and is mutable(changeable)
 
 # we have to import array module before it is used
 

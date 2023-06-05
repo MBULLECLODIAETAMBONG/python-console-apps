@@ -2,6 +2,8 @@
 
 # 1. STRING
 
+# A String is a sering of characters
+
 print("Data Type STRING")
 
 name = str(input("Enter your name: "))
@@ -80,6 +82,8 @@ else:
 
 #  BOOLEAN
 
+# Boolean is a logical expression that returns True or False if a condition is satisfy or not
+
 print("DATA TYPE BOOLEAN")
       
 bool_1 = str(input("Enter your first name: "))
@@ -92,6 +96,8 @@ print("Data Type is of : ",type(result))
     
 
 # LIST
+
+#   A List is a collection of ordered(indexed) elements of different data type which are mutable
 
 print("Data Type LIST")
       
