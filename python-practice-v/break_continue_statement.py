@@ -7,7 +7,7 @@
 #name  = str(input("Enter any word of your choice: "))
 name  = ["mbulle", "sandra", "vivian", "Epolle"]
 for x in name:
-    if x=="sandra":      
+    if x=="vivian":      
         break
     else:
         print(x)
@@ -29,4 +29,33 @@ for l in list:
         break
     else:
         print(l,": is odd")
+        
+        
+"""
+EXERCISE 2: Write a program in a while loop that checks if a number is
+less than 7 and and if is equal to 4 using a break and continue statement
+"""
 
+# BREAK STATEMENT
+
+i = 0
+while i < 7:
+    print(i)
+    if i == 4:
+        print("Breaking from loop")
+        break
+    i += 1
+
+# BREAK STATEMENT
+
+print("This is a continue  statement")
+
+list = [0,1,2,3,4,5,6]
+for i in list:
+    if i == 2 or i== 6:
+            continue
+        
+    print(i)
+    
+
+    

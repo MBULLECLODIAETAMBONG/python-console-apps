@@ -67,7 +67,7 @@ print(person2)
 
 # list of dictionary
 identity = [
-    {"name" : "Mbulle", "age" : 22},
+    {"name" : "Mbulle", "age" : 23},
     
     {"name" : "Nadesh", "age" : 20},
     

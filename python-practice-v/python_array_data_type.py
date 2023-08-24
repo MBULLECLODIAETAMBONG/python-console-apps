@@ -53,16 +53,23 @@ print("The index of 55 in the array is: ", numbers.index(55))
 occurrence = array('i',[1, 2, 30, 4, 5, 6, 30, 8, 30])
 print("30 occurs: ", occurrence.count(30),"times")
 
-# checking if an element in an array is odd or even
+# checking if elements in an array is odd or even
 num1 = int(input('Enter first number on the list: '))
 num2 = int(input('Enter second number on the list: '))
 num3 = int(input('Enter third number on the list: '))
 total_numbers = array('i', [num1, num2, num3])
 print(total_numbers)
 
-if (total_numbers[1] %2 ==0):
-    print("The number is EVEN")
+for i in total_numbers:
     
-else:
-    print("The number is ODD")
+    if (i %2 ==0):
+        print(i, " is EVEN")
+        
+    else:
+        print(i, " is ODD")
 
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+for i in my_array:
+    print(i)

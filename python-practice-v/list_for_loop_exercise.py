@@ -25,5 +25,12 @@ for num in numbers:
         sum += num
 print("The sum of all the even numbers in the list is: ", sum)
 
+# To check if the list is empty we use "not" rather using the Len(lst) == 0
 
+print("check is the list is empty using the 'not' operator")
+lst = []
+if not lst:
+    print('The list is empty')
+else:
+    print('List has values ')
     
