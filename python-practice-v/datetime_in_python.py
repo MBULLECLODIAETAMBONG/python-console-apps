@@ -31,7 +31,7 @@ print(current_date.strftime('Please attend our event %A, %B %d in the year %Y'))
 strftime    and    strptime
 
 The difference between strptime and strftime in Python is that strptime is 
-used to convert a string to a datetime object, while strftime is
+used to convert a string to a datetime object, while strftime is to format the date
 """
 
 #             3. Write a program that ask the user's date of birth and prints the output
@@ -73,3 +73,17 @@ print(datetime.datetime.now())    # getting date and time
 current_time = datetime.datetime.now()    
 print("Current Time in hrs and mins is:", datetime.datetime.strftime(current_time, "%H:%M"))    # getting date in hr and mins
 print("Current Time in am or pm is:", datetime.datetime.strftime(current_time, "%H:%M%p"))    # getting date with am or pm
+
+
+# Using timedelta": it is used to determine what the date of tomorrow or previous or future dates
+
+print('USING timedelta to determine dates')
+
+import datetime
+today = datetime.date.today()
+print('Today:', today)
+yesterday = today - datetime.timedelta(days=1)
+print('Yesterday:', yesterday)
+tomorrow = today + datetime.timedelta(days=1)
+print('Tomorrow:', tomorrow)
+print('Time between tomorrow and yesterday:', tomorrow - yesterday)

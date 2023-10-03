@@ -41,6 +41,7 @@ def checking_letter(x):
     return new_list2
 
 # function call that is calling the function 
-print(checking_letter(
+p= checking_letter(
     ["Banana", "Pear", "Plum"]
-))
+)
+print(p)
