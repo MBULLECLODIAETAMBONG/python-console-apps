@@ -11,7 +11,7 @@ swap = x
 x = y
 y = swap
 
-print(x, y)
+print(f"x is = {x}, y is = {y}")
 
                                                                                                                                     
                                                                                                                                     
