@@ -31,17 +31,17 @@ if user_location.capitalize() == "Canada":
         total_price = Alberta_charge + price
         print("The total with taxes for for your order is ",total_price)
         
-    elif province.capitalize() == "Ontario":
-        total_price = Ontario + price
+    elif province.capitalize() == "Ontario" or "New Brunswick" or "Nova_Scotia":
+        total_price = Ontario + price or  New_Brunswick + price or Nova_Scotia + price
         print("The total with taxes for for your order is ",total_price)
         
-    elif province.capitalize() == "New Brunswick":
-        total_price = New_Brunswick + price
-        print("The total with taxes for for your order is ",total_price)
+    # elif province.capitalize() == "New Brunswick":
+    #     total_price = New_Brunswick + price
+    #     print("The total with taxes for for your order is ",total_price)
         
-    elif province.capitalize() ==  "Nova Scotia":
-        total_price = Nova_Scotia + price
-        print("The total with taxes for for your order is ",total_price)
+    # elif province.capitalize() ==  "Nova Scotia":
+    #     total_price = Nova_Scotia + price
+    #     print("The total with taxes for for your order is ",total_price)
         
     else:
         total_price = all_other_p + price
